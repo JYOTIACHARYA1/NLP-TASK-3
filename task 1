@@ -1,0 +1,5 @@
+pip install translate
+from translate import Translator
+translator= Translator(from_lang="english",to_lang="spanish",to_lang="french",to_lang="german")
+translation = translator.translate("Guten Morgen")
+print ('translation')
